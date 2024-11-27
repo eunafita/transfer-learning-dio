@@ -1,15 +1,5 @@
-Bibliotecas :
-
 tensorflow==2.12.0
 tensorflow-datasets
 numpy
 matplotlib
 pillow
-
-Detalhes:
-
-1. tensorflow==2.12.0: Certifique-se de ajustar a versão caso esteja usando uma versão específica no Colab ou no ambiente local.
-2. tensorflow-datasets: Incluído para o módulo tfds (TensorFlow Datasets).
-3. numpy: Usado para manipulação de arrays e cálculos matemáticos.
-4. matplotlib: Usado para visualização (plotagem de gráficos).
-5. pillow: Necessário para o carregamento de imagens no TensorFlow (Image.open()).
