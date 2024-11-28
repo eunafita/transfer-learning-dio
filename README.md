@@ -59,7 +59,7 @@ O modelo foi treinado por 5 épocas, com os seguintes resultados:
 
 Gráficos de desempenho foram gerados para acompanhar a evolução da perda e acurácia durante o treinamento:
 
-### Gráfico de Perda (Loss)
+### Gráfico de Perda (Loss) e Acurácia (Accuracy)
 ![Validation Loss | Validation Accuracy](images/validation_loss.png)
 
 ---
