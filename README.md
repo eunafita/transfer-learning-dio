@@ -20,6 +20,22 @@ Este projeto é uma implementação de Transferência de Aprendizado utilizando 
 
 ---
 
+## Modelos Treinados
+
+A pasta `models/` contém o arquivo do modelo treinado. Para executar o código, faça o download do modelo treinado no link abaixo e salve-o dentro da pasta `models/`.
+
+[Baixar o modelo ResNet50V2](https://drive.google.com/drive-link-aqui)
+
+Depois de baixar, carregue o modelo no código com:
+
+```python
+from tensorflow.keras.models import load_model
+
+model = load_model("models/resnet50v2_model.h5")
+```
+
+---
+
 ## **Principais Funcionalidades**
 - Pré-processamento de imagens para uso com o modelo ResNet50V2.
 - Treinamento do modelo com Transfer Learning, usando o dataset de gatos e cachorros.
