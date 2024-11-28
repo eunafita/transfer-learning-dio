@@ -43,13 +43,17 @@ model = load_model("models/resnet50v2_model.h5")
 
 ## **Dataset Utilizado**
 
-Este projeto utiliza o dataset Cats vs Dogs, disponível publicamente no TensorFlow Datasets. Este conjunto de dados contém imagens rotuladas de gatos e cachorros, sendo amplamente utilizado para tarefas de classificação binária em visão computacional.
+Este projeto utiliza o dataset [Cats vs Dogs](https://www.tensorflow.org/datasets/catalog/cats_vs_dogs?hl=pt-br), disponível publicamente no TensorFlow Datasets. Este conjunto de dados contém imagens rotuladas de gatos e cachorros, sendo amplamente utilizado para tarefas de classificação binária em visão computacional.
 
 - Número de imagens: ~25.000.
 - Classes: Gato e Cachorro.
-- Origem: Publicado originalmente como parte do Kaggle's Dogs vs. Cats competition.
+- Origem: Publicado originalmente como parte da competição Kaggle's Dogs vs. Cats.
 
 O dataset é carregado automaticamente pelo TensorFlow ao executar o código, portanto não é necessário baixá-lo manualmente.
+
+**Você pode acessar o dataset diretamente no TensorFlow Datasets pelo link:**
+https://www.tensorflow.org/datasets/catalog/cats_vs_dogs?hl=pt-br
+
 
 ---
 
