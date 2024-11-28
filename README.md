@@ -121,7 +121,7 @@ transfer-learning-dio/
 │   ├── aisha.jpg
 │   └── bob.jpg
 ├── models/
-├── data/
+├── requirements.txt
 └── README.md
 ```
 
