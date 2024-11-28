@@ -24,7 +24,7 @@ Este projeto é uma implementação de Transferência de Aprendizado utilizando 
 
 A pasta `models/` contém o arquivo do modelo treinado. Para executar o código, faça o download do modelo treinado no link abaixo e salve-o dentro da pasta `models/`.
 
-[Baixar o modelo ResNet50V2](https://drive.google.com/drive-link-aqui)
+[Baixar o modelo ResNet50V2](https://drive.google.com/uc?export=download&id=1XbwjGB1NsEEUmFG0WeGA7s22P0EBJnSd)
 
 Depois de baixar, carregue o modelo no código com:
 
