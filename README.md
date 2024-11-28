@@ -46,17 +46,21 @@ model = load_model("models/resnet50v2_model.h5")
 
 ## **Resultados do Treinamento**
 
-Após 5 épocas de treinamento, o modelo alcançou os seguintes resultados:
-- **Acurácia no treino:** 99,68%
-- **Acurácia na validação:** 98,47%
+O modelo foi treinado por 5 épocas, com os seguintes resultados:
+
+| Época | Acurácia (treino) | Perda (treino) | Acurácia (validação) | Perda (validação) |
+|-------|-------------------|----------------|----------------------|-------------------|
+| 1     | 97.13%           | 0.0755         | 98.45%              | 0.0420           |
+| 2     | 98.89%           | 0.0299         | 98.47%              | 0.0438           |
+| 3     | 99.47%           | 0.0184         | 98.11%              | 0.0622           |
+| 4     | 99.57%           | 0.0145         | 98.26%              | 0.0665           |
+| 5     | 99.69%           | 0.0111         | 98.19%              | 0.0653           |
+
 
 Gráficos de desempenho foram gerados para acompanhar a evolução da perda e acurácia durante o treinamento:
 
 ### Gráfico de Perda (Loss)
-![Validation Loss](images/validation_loss.png)
-
-### Gráfico de Acurácia
-![Validation Accuracy](images/val_accuracy.png)
+![Validation Loss | Validation Accuracy](images/validation_loss.png)
 
 ---
 
