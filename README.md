@@ -121,8 +121,8 @@ transfer-learning-dio/
 │   ├── aisha.jpg
 │   └── bob.jpg
 ├── models/
-├── requirements.txt
-└── README.md
+├── README.md
+└── requirements.txt
 ```
 
 # **3. Executar o Notebook**
