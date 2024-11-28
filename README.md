@@ -47,7 +47,7 @@ Este projeto utiliza o dataset [Cats vs Dogs](https://www.tensorflow.org/dataset
 
 - Número de imagens: ~25.000.
 - Classes: Gato e Cachorro.
-- Origem: Publicado originalmente como parte da competição Kaggle's Dogs vs. Cats.
+- Origem: Publicado originalmente como parte da competição [Kaggle's Dogs vs. Cats](https://www.kaggle.com/competitions/dogs-vs-cats).
 
 O dataset é carregado automaticamente pelo TensorFlow ao executar o código, portanto não é necessário baixá-lo manualmente.
 
