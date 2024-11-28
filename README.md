@@ -4,6 +4,14 @@ Este projeto é uma implementação de Transferência de Aprendizado utilizando 
 
 ---
 
+## Teste o Notebook no Google Colab
+
+Você pode abrir e executar este projeto diretamente no Google Colab clicando no botão abaixo:
+
+[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/eunafita/transfer-learning-dio/blob/main/notebooks/transfer_Learning.ipynb)
+
+---
+
 ## **Estrutura do Repositório**
 
 - **`notebooks/`**
@@ -14,9 +22,6 @@ Este projeto é uma implementação de Transferência de Aprendizado utilizando 
   
 - **`models/`** *(opcional)*
   - Modelos treinados salvos (se necessário para futuros carregamentos e inferências).
-
-- **`data/`** *(opcional)*
-  - Dataset utilizado no projeto.
 
 ---
 
@@ -33,6 +38,18 @@ from tensorflow.keras.models import load_model
 
 model = load_model("models/resnet50v2_model.h5")
 ```
+
+---
+
+## **Dataset Utilizado**
+
+Este projeto utiliza o dataset Cats vs Dogs, disponível publicamente no TensorFlow Datasets. Este conjunto de dados contém imagens rotuladas de gatos e cachorros, sendo amplamente utilizado para tarefas de classificação binária em visão computacional.
+
+- Número de imagens: ~25.000.
+- Classes: Gato e Cachorro.
+- Origem: Publicado originalmente como parte do Kaggle's Dogs vs. Cats competition.
+
+O dataset é carregado automaticamente pelo TensorFlow ao executar o código, portanto não é necessário baixá-lo manualmente.
 
 ---
 
